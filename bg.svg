@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="169px" height="132px" viewBox="0 0 169 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval + Oval Copy 2 + Oval Copy 3 + Oval Copy Mask</title>
+    <defs>
+        <linearGradient x1="0%" y1="19.5985686%" x2="100%" y2="80.4014314%" id="linearGradient-1">
+            <stop stop-color="#EFAC9C" offset="0%"></stop>
+            <stop stop-color="#FCE3E3" offset="100%"></stop>
+        </linearGradient>
+        <path d="M10.35,131.52381 L158.35,131.52381 C163.872847,131.52381 168.35,127.046657 168.35,121.52381 L168.35,10.5238095 C168.35,5.00096203 163.872847,0.523809524 158.35,0.523809524 L10.35,0.523809524 C4.8271525,0.523809524 0.35,5.00096203 0.35,10.5238095 L0.35,121.52381 C0.35,127.046657 4.8271525,131.52381 10.35,131.52381 Z" id="path-2"></path>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="translate(0.500000,0.500000),scale(0.997732,1.000000),rotate(90.000000),translate(-0.500000,-0.500000)" id="radialGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="translate(0.500000,0.500000),scale(0.997732,1.000000),rotate(90.000000),translate(-0.500000,-0.500000)" id="radialGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval-+-Oval-Copy-2-+-Oval-Copy-3-+-Oval-Copy-Mask">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <ellipse id="Oval" fill-opacity="0.33" fill="url(#radialGradient-4)" mask="url(#mask-3)" cx="134.225" cy="9.42857143" rx="55.125" ry="55"></ellipse>
+            <ellipse id="Oval-Copy-2" fill-opacity="0.17" fill="url(#radialGradient-5)" mask="url(#mask-3)" cx="17.675" cy="-9.42857143" rx="45.675" ry="45.5714286"></ellipse>
+            <ellipse id="Oval-Copy-3" fill-opacity="0.37" fill="url(#radialGradient-5)" mask="url(#mask-3)" cx="169.925" cy="72.2857143" rx="45.675" ry="45.5714286"></ellipse>
+            <ellipse id="Oval-Copy" fill-opacity="0.36" fill="url(#radialGradient-4)" mask="url(#mask-3)" cx="35.525" cy="134.095238" rx="55.125" ry="55"></ellipse>
+        </g>
+    </g>
+</svg>
